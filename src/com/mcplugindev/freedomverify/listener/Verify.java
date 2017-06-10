@@ -11,6 +11,7 @@ public class Verify implements Listener {
 
     public static final String BOTPREFIX = ChatColor.DARK_GRAY + "[" + ChatColor.DARK_GREEN + "Freedom" + ChatColor.GREEN + "Bot" + ChatColor.DARK_GRAY + "]" + ChatColor.RESET + " ";
 
+    // FreedomVerify uses the custom command "!verify <password>" to make sure the password isn't logged to the console.
     @EventHandler
     public void onPlayerChat(AsyncPlayerChatEvent event) {
         Player player = event.getPlayer();
